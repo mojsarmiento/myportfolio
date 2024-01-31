@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="navbar-brand">
+            <li class="nav-item"><a href="#home">MJS</a></li>
+            <span class="toggle-btn" onclick="toggleNav()">&#9776;</span>
+        </div>
+        <ul class="navbar-nav" id="navbarNav">
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="section active">
+        <div class="container">
+            <div class="home-content">
+                <h1 class="wc">Welcome to My Website</h1>
+                <p class="subtitle">I'm</p>
+                <h2 class="name">MJ SARMIENTO</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h1 class="section-title">About <span>me</span></h1>
+            <div class="about-img">
+                <img src="picture.jpg" alt="img" class="profile-picture">
+            </div>
+            <h2>Front End Developer</h2>
+            <p>Hello there! <span style="color:#232946;">I'm Mark Joshua B. Sarmiento</span>, a passionate front-end developer dedicated to crafting exceptional digital experiences. 
+                With a keen eye for design and a love for coding, I transform ideas into visually stunning and highly functional websites.</p>
+            <br>
+            <p>Let's bring your ideas to life on the web! If you're looking for a front-end developer who is committed to creating engaging 
+                and functional websites, I'm ready to take on the challenge.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h1 class="section-title">Recent <span>Projects</span></h1>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Synth Music</h1>
+                        <h2>Instrument showcase website</h2>
+                        <p>Is a instrument showcase website where you can be able to browse for a particular instruments like Guitars, Drums,
+                            and violins. It also contains descriptions so that you'll be able to learn or gain knowledge for searching an instrument.
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="synth_music.png" alt="img">
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>GearHead Motoshop</h1>
+                        <h2>Motoshop and accessories</h2>
+                        <p>Introducing GearheadMotoshop, the ultimate web and mobile app platform for motorcycle enthusiasts and parts aficionados.
+                            With GearheadMotoshop,you can effortlessly browse and purchase a wide range of high-quality motorcycle parts and 
+                            accessories from the comfort of your own home or on-the-go. </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="gearhead.png" alt="img">
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Relax&Renew App</h1>
+                        <h2>Spa and massage reservation app</h2>
+                        <p>The Relax&Renew App is an innovative and user-friendly mobile application designed to enhance the spa and wellness
+                            experience by simplifying the process of booking massage and facial treatments. This project aims to provide a 
+                            convenient platform for both spa-goers and welness centers. Streamlining the booking process while promoting 
+                            relaxation and rejuvination.
+                        </p>
+                    </div>
+                    <div class="project-img">
+                        <img src="relax.png" alt="img">
+                    </div>
+                </div>
+            <!-- Your portfolio items go here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div>
+                <h1 class="section-title">Contact <span>info</span></h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="telephone.png" /></div>
+                        <div class="contact-info">
+                            <h1>Phone</h1>
+                            <h2>+63 945 849 9660</h2>
+                            <h2>+63 976 155 3951 </h2>
+                        </div>
+                    </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="mail.png" /></div>
+                        <div class="contact-info">
+                            <h1>Email</h1>
+                            <h2>mjsarmiento234@gmail.com</h2>
+                            <h2>mjsarmiento456@gmail.com</h2>
+                        </div>
+                    </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="location.png" /></div>
+                        <div class="contact-info">
+                            <h1>Address</h1>
+                            <h2>Malabago, Calasiao, Pangasinan</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>M</span>ark <span>J</span>oshua</h1>
+            </div>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="https://www.facebook.com/anacobra24"><img src="facebook.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://www.instagram.com/mjsarmientooo/"><img src="instagram.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="https://twitter.com/CYN_moj"><img src="twitter.png" /></a>
+                </div>
+            </div>
+            <p>Copyright © 2024 MJ Sarmiento. All rights reserved</p>
+        </div>
+    </section>
+
+    <!-- Custom JS for smooth scrolling -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
